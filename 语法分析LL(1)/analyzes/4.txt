@@ -1,0 +1,17 @@
+STEP     STACK               INPUT    OUTPUT                 LEFT SENTENCE
+   0        $E               1++1$                                       E
+   1       $LT               1++1$     E->TL                            TL
+   2      $LRF               1++1$     T->FR                           FRL
+   3      $LR1               1++1$      F->1                           1RL
+   4       $LR                ++1$     MATCH                           1RL
+   5        $L                ++1$      R->?                            1L
+   6      $LT+                ++1$    L->+TL                          1+TL
+   7       $LT                 +1$     MATCH                          1+TL
+   8        $L                 +1$ERROR!!!SYNC                           1+L
+   9      $LT+                 +1$    L->+TL                         1++TL
+  10       $LT                  1$     MATCH                         1++TL
+  11      $LRF                  1$     T->FR                        1++FRL
+  12      $LR1                  1$      F->1                        1++1RL
+  13       $LR                   $     MATCH                        1++1RL
+  14        $L                   $      R->?                         1++1L
+  15         $                   $      L->?                          1++1

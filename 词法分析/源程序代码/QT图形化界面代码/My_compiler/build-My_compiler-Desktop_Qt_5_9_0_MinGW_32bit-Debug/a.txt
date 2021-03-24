@@ -1,0 +1,34 @@
+int main()
+{
+	int a = 0, $b = 1;
+	int *aadawdadawfawdgawdawdawjdwhawdha;
+	int 1c = 5;
+	a++;
+	char .ch;
+	float b = 1.11;
+	double *c; 
+	my_struct *d;//I defined this structure
+	(*d).id = 1;
+	d->id = 2;
+	int e = 5;
+	e = e>>3;
+	char *local = & .ch;
+	for (int i = 2; i < 2; i++)
+	{
+		a = a + b;
+	}
+	/*
+	Just for filling the gap.
+	These are comments.
+	*/
+	a /= b;
+	int c = b ^ a;
+	while (a != 0)
+	{
+		if (b = 1 && c = 1)
+		{
+			a--;
+		}
+	}
+	return 0;
+}

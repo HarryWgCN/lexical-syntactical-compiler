@@ -1,0 +1,84 @@
+<keyword,int>
+<keyword,main>
+<parenthesis,(>
+<parenthesis,)>
+<parenthesis,{>
+<keyword,int>
+<a,1(0)>
+<assign_op,=>
+<integer,1>
+<delimiter,;>
+<keyword,long>
+<decimal,1(1)>
+<assign_op,=>
+<decimal,1.16412713>
+<delimiter,;>
+<keyword,char>
+<result,1(2)>
+<delimiter,;>
+<keyword,switch>
+<parenthesis,(>
+<a,1(0)>
+<parenthesis,)>
+<parenthesis,{>
+<keyword,case>
+<integer,0>
+<:,>
+<result,2(0)>
+<assign_op,=>
+Warning!!!! Unknown character ' at line 9
+<a,2(1)>
+<delimiter,;>
+<keyword,break>
+<delimiter,;>
+<keyword,case>
+<integer,1>
+<:,>
+<result,2(0)>
+<assign_op,=>
+Warning!!!! Unknown character ' at line 12
+<b,2(2)>
+<delimiter,;>
+<keyword,break>
+<delimiter,;>
+<default,2(3)>
+<:,>
+<keyword,break>
+<delimiter,;>
+<parenthesis,}>
+<keyword,int>
+<record,1(3)>
+<assign_op,=>
+<integer,0>
+<delimiter,;>
+<keyword,for>
+<parenthesis,(>
+<keyword,int>
+<j,1(4)>
+<assign_op,=>
+<integer,0>
+<delimiter,;>
+<j,1(4)>
+<comp_op,<=>
+<a,1(0)>
+<delimiter,;>
+<i,1(5)>
+<arith_op,++>
+<parenthesis,)>
+<parenthesis,{>
+<record,3(0)>
+<arith_op,++>
+<delimiter,;>
+<parenthesis,}>
+<keyword,return>
+<integer,0>
+<delimiter,;>
+<parenthesis,}>
+Statistical Data:
+Keywords : 15
+Identifiers : 15
+Numbers : 7
+Parentheses : 12
+Operators : 195
+Lines : 22
+Total characters : 244

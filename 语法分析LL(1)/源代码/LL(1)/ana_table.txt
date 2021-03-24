@@ -1,0 +1,6 @@
+          (         )         *         +         -         /         $         1         
+E         E->TR     sync                                              sync      E->TR     
+F         F->(E)    sync      sync      sync      sync      sync      sync      F->1      
+L                   L->?      L->*FL    L->?      L->?      L->/FL    L->?                
+R                   R->?                R->+TR    R->-TR              R->?                
+T         T->FL     sync                sync      sync                sync      T->FL     

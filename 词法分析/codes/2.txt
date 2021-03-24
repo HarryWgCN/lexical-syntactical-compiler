@@ -1,0 +1,27 @@
+int global_var = 10;
+
+int main()
+{
+    global_var++;
+    int global_var;//Just for testing the domain of this variable
+    double* c;
+    *c = 1.1.1.1;//Multiple dots;
+    int e = 5;
+    e = e >> 3;
+    char* local = &.ch;
+    /*
+    Just for filling the gap.
+    These are comments.
+    */
+    int a = 1, b = 1;
+    a /= b;
+    int count = 0;
+    while (a != 0)
+    {
+        if ((b == 1 && c == 1) || (b ==1 && c == 1))
+        {
+            count++;
+        }
+    }
+    return 0;
+}

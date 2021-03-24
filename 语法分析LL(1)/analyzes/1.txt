@@ -1,0 +1,25 @@
+STEP     STACK               INPUT    OUTPUT                 LEFT SENTENCE
+   0        $E            (1+1/1)$                                       E
+   1       $LT            (1+1/1)$     E->TL                            TL
+   2      $LRF            (1+1/1)$     T->FR                           FRL
+   3    $LR)E(            (1+1/1)$    F->(E)                         (E)RL
+   4     $LR)E             1+1/1)$     MATCH                         (E)RL
+   5    $LR)LT             1+1/1)$     E->TL                        (TL)RL
+   6   $LR)LRF             1+1/1)$     T->FR                       (FRL)RL
+   7   $LR)LR1             1+1/1)$      F->1                       (1RL)RL
+   8    $LR)LR              +1/1)$     MATCH                       (1RL)RL
+   9     $LR)L              +1/1)$      R->?                        (1L)RL
+  10   $LR)LT+              +1/1)$    L->+TL                      (1+TL)RL
+  11    $LR)LT               1/1)$     MATCH                      (1+TL)RL
+  12   $LR)LRF               1/1)$     T->FR                     (1+FRL)RL
+  13   $LR)LR1               1/1)$      F->1                     (1+1RL)RL
+  14    $LR)LR                /1)$     MATCH                     (1+1RL)RL
+  15  $LR)LRF/                /1)$    R->/FR                   (1+1/FRL)RL
+  16   $LR)LRF                 1)$     MATCH                   (1+1/FRL)RL
+  17   $LR)LR1                 1)$      F->1                   (1+1/1RL)RL
+  18    $LR)LR                  )$     MATCH                   (1+1/1RL)RL
+  19     $LR)L                  )$      R->?                    (1+1/1L)RL
+  20      $LR)                  )$      L->?                     (1+1/1)RL
+  21       $LR                   $     MATCH                     (1+1/1)RL
+  22        $L                   $      R->?                      (1+1/1)L
+  23         $                   $      L->?                       (1+1/1)

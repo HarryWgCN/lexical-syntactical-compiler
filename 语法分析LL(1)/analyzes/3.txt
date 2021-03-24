@@ -1,0 +1,25 @@
+STEP     STACK               INPUT    OUTPUT                 LEFT SENTENCE
+   0        $E            1*(1+1)$                                       E
+   1       $LT            1*(1+1)$     E->TL                            TL
+   2      $LRF            1*(1+1)$     T->FR                           FRL
+   3      $LR1            1*(1+1)$      F->1                           1RL
+   4       $LR             *(1+1)$     MATCH                           1RL
+   5     $LRF*             *(1+1)$    R->*FR                         1*FRL
+   6      $LRF              (1+1)$     MATCH                         1*FRL
+   7    $LR)E(              (1+1)$    F->(E)                       1*(E)RL
+   8     $LR)E               1+1)$     MATCH                       1*(E)RL
+   9    $LR)LT               1+1)$     E->TL                      1*(TL)RL
+  10   $LR)LRF               1+1)$     T->FR                     1*(FRL)RL
+  11   $LR)LR1               1+1)$      F->1                     1*(1RL)RL
+  12    $LR)LR                +1)$     MATCH                     1*(1RL)RL
+  13     $LR)L                +1)$      R->?                      1*(1L)RL
+  14   $LR)LT+                +1)$    L->+TL                    1*(1+TL)RL
+  15    $LR)LT                 1)$     MATCH                    1*(1+TL)RL
+  16   $LR)LRF                 1)$     T->FR                   1*(1+FRL)RL
+  17   $LR)LR1                 1)$      F->1                   1*(1+1RL)RL
+  18    $LR)LR                  )$     MATCH                   1*(1+1RL)RL
+  19     $LR)L                  )$      R->?                    1*(1+1L)RL
+  20      $LR)                  )$      L->?                     1*(1+1)RL
+  21       $LR                   $     MATCH                     1*(1+1)RL
+  22        $L                   $      R->?                      1*(1+1)L
+  23         $                   $      L->?                       1*(1+1)

@@ -1,0 +1,22 @@
+int main()
+{
+    int a = 1;
+    long decimal = 1.16412713;
+    char result;
+    switch(a)
+    {
+        case 0:
+            result = 'a';
+            break;
+        case 1:
+            result = 'b';
+            break;
+        default:break;
+    }
+    int record = 0;
+    for(int j = 0; j <= a; i++)
+    {
+        record++;
+    }
+    return 0;
+}

@@ -1,0 +1,115 @@
+<keyword,int>
+<global_var,0(0)>
+<assign_op,=>
+<integer,10>
+<delimiter,;>
+<keyword,int>
+<keyword,main>
+<parenthesis,(>
+<parenthesis,)>
+<parenthesis,{>
+<global_var,1(0)>
+<arith_op,++>
+<delimiter,;>
+<keyword,int>
+<global_var,1(0)>
+<delimiter,;>
+<coment,//> Comments here.
+<keyword,double>
+<arith_op,*>
+<c,1(1)>
+<delimiter,;>
+<pointer_op,*>
+<c,1(1)>
+<assign_op,=>
+Warning!!!! Too many dots at line 8
+Warning!!!! Too many dots at line 8
+<decimal,1.111>
+<delimiter,;>
+<coment,//> Comments here.
+<keyword,int>
+<e,1(2)>
+<assign_op,=>
+<integer,5>
+<delimiter,;>
+<e,1(2)>
+<assign_op,=>
+<e,1(2)>
+<shift_op,>>>
+<integer,3>
+<delimiter,;>
+<keyword,char>
+<arith_op,*>
+<local,1(3)>
+<assign_op,=>
+<loc_op,&>
+Warning!!!! Invalid identifier(starting with '.') at line 10
+<ch,1(4)>
+<delimiter,;>
+<comment,/*> Comments here.
+<comment,*/>
+<keyword,int>
+<a,1(5)>
+<assign_op,=>
+<integer,1>
+<,,>
+<b,1(6)>
+<assign_op,=>
+<integer,1>
+<delimiter,;>
+<a,1(5)>
+<arith_op,/=>
+<b,1(6)>
+<delimiter,;>
+<keyword,int>
+<count,1(7)>
+<assign_op,=>
+<integer,0>
+<delimiter,;>
+<keyword,while>
+<parenthesis,(>
+<a,1(5)>
+<comp_op,!=>
+<integer,0>
+<parenthesis,)>
+<parenthesis,{>
+<keyword,if>
+<parenthesis,(>
+<parenthesis,(>
+<b,2(0)>
+<comp_op,==>
+<integer,1>
+<log_op,&&>
+<c,2(1)>
+<comp_op,==>
+<integer,1>
+<parenthesis,)>
+<log_op,||>
+<parenthesis,(>
+<b,2(0)>
+<comp_op,==>
+<integer,1>
+<log_op,&&>
+<c,2(1)>
+<comp_op,==>
+<integer,1>
+<parenthesis,)>
+<parenthesis,)>
+<parenthesis,{>
+<count,3(0)>
+<arith_op,++>
+<delimiter,;>
+<parenthesis,}>
+<parenthesis,}>
+<keyword,return>
+<integer,0>
+<delimiter,;>
+<parenthesis,}>
+Statistical Data:
+Keywords : 12
+Identifiers : 21
+Numbers : 13
+Parentheses : 16
+Operators : 209
+Lines : 24
+Total characters : 271

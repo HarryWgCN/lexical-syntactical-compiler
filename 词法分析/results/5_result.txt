@@ -1,0 +1,79 @@
+<keyword,int>
+<ch,0(0)>
+<assign_op,=>
+<integer,0>
+<delimiter,;>
+<keyword,void>
+<assign_char,0(1)>
+<parenthesis,(>
+<parenthesis,)>
+<delimiter,;>
+<keyword,int>
+<keyword,main>
+<parenthesis,(>
+<parenthesis,)>
+<parenthesis,{>
+<keyword,short>
+<a,1(0)>
+<assign_op,=>
+<integer,1>
+<delimiter,;>
+<a,1(0)>
+<arith_op,*=>
+<integer,5>
+<delimiter,;>
+<keyword,if>
+<parenthesis,(>
+<a,1(0)>
+<comp_op,>=>
+<integer,5>
+<log_op,||>
+<a,1(0)>
+<comp_op,<=>
+<integer,1>
+<parenthesis,)>
+<parenthesis,{>
+<assign_char,2(0)>
+<parenthesis,(>
+<parenthesis,)>
+<delimiter,;>
+<parenthesis,}>
+<keyword,do>
+<parenthesis,{>
+<ch,3(0)>
+<arith_op,-->
+<delimiter,;>
+<keyword,if>
+<parenthesis,(>
+<ch,3(0)>
+<comp_op,<>
+<integer,32>
+<parenthesis,)>
+<keyword,break>
+<delimiter,;>
+<parenthesis,}>
+<keyword,while>
+<parenthesis,(>
+<ch,1(1)>
+<comp_op,!=>
+<integer,32>
+<parenthesis,)>
+<parenthesis,}>
+<keyword,void>
+<assign_char,0(1)>
+<parenthesis,(>
+<parenthesis,)>
+<parenthesis,{>
+<ch,4(0)>
+<assign_op,=>
+<integer,35>
+<delimiter,;>
+<parenthesis,}>
+Statistical Data:
+Keywords : 11
+Identifiers : 12
+Numbers : 8
+Parentheses : 22
+Operators : 136
+Lines : 24
+Total characters : 189

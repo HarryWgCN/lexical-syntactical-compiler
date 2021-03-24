@@ -1,0 +1,108 @@
+<keyword,const>
+<keyword,float>
+<my_id,0(0)>
+<assign_op,=>
+<decimal,66.6>
+<delimiter,;>
+<keyword,int>
+<check_id,0(1)>
+<parenthesis,(>
+<keyword,int>
+<id,0(2)>
+<parenthesis,)>
+<delimiter,;>
+<keyword,int>
+<keyword,main>
+<parenthesis,(>
+<parenthesis,)>
+<parenthesis,{>
+<keyword,char>
+Warning!!!! Invalid identifier(starting with '.') at line 6
+<ch,1(0)>
+<delimiter,;>
+<keyword,float>
+Warning!!!! Invalid usage of '!' ! at line 8
+<b,1(1)>
+<assign_op,=>
+<decimal,1.11>
+<delimiter,;>
+<my_struct,1(2)>
+<arith_op,*>
+<d,1(3)>
+<delimiter,;>
+<coment,//> Comments here.
+<parenthesis,(>
+<pointer_op,*>
+<d,1(3)>
+<parenthesis,)>
+Warning!!!! Invalid identifier(starting with '.') at line 9
+<struct_op,.>
+<id,1(4)>
+<assign_op,=>
+<integer,1>
+<delimiter,;>
+<d,1(3)>
+<struct_op,->>
+<id,1(4)>
+<assign_op,=>
+<integer,2>
+<delimiter,;>
+<keyword,int>
+<check,1(5)>
+<assign_op,=>
+<check_id,1(6)>
+<parenthesis,(>
+<integer,66>
+<struct_op,.>
+<integer,6>
+<parenthesis,)>
+<delimiter,;>
+<keyword,if>
+<parenthesis,(>
+<check,1(5)>
+<comp_op,==>
+<integer,1>
+<parenthesis,)>
+<keyword,return>
+<integer,0>
+<delimiter,;>
+<keyword,else>
+<d,1(3)>
+<struct_op,->>
+<id,1(4)>
+<assign_op,=>
+<integer,0>
+<delimiter,;>
+<keyword,return>
+<integer,0>
+<delimiter,;>
+<parenthesis,}>
+<keyword,int>
+<check_id,0(1)>
+<parenthesis,(>
+<keyword,int>
+<id,0(2)>
+<parenthesis,)>
+<parenthesis,{>
+<keyword,if>
+<parenthesis,(>
+<id,2(0)>
+<comp_op,==>
+<decimal,66.6>
+<parenthesis,)>
+<keyword,return>
+<integer,0>
+<delimiter,;>
+<keyword,else>
+<keyword,return>
+<integer,1>
+<delimiter,;>
+<parenthesis,}>
+Statistical Data:
+Keywords : 19
+Identifiers : 19
+Numbers : 13
+Parentheses : 18
+Operators : 164
+Lines : 26
+Total characters : 233

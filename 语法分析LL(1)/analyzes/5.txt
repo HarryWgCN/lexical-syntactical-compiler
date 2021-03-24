@@ -1,0 +1,37 @@
+STEP     STACK               INPUT    OUTPUT                 LEFT SENTENCE
+   0        $E      (1+/1-1*1/1))$                                       E
+   1       $LT      (1+/1-1*1/1))$     E->TL                            TL
+   2      $LRF      (1+/1-1*1/1))$     T->FR                           FRL
+   3    $LR)E(      (1+/1-1*1/1))$    F->(E)                         (E)RL
+   4     $LR)E       1+/1-1*1/1))$     MATCH                         (E)RL
+   5    $LR)LT       1+/1-1*1/1))$     E->TL                        (TL)RL
+   6   $LR)LRF       1+/1-1*1/1))$     T->FR                       (FRL)RL
+   7   $LR)LR1       1+/1-1*1/1))$      F->1                       (1RL)RL
+   8    $LR)LR        +/1-1*1/1))$     MATCH                       (1RL)RL
+   9     $LR)L        +/1-1*1/1))$      R->?                        (1L)RL
+  10   $LR)LT+        +/1-1*1/1))$    L->+TL                      (1+TL)RL
+  11    $LR)LT         /1-1*1/1))$     MATCH                      (1+TL)RL
+  12    $LR)LT          1-1*1/1))$ERROR!!!!!!!!!!                      (1+L)RLT
+  13   $LR)LRF          1-1*1/1))$     T->FR                     (1+L)RLFR
+  14   $LR)LR1          1-1*1/1))$      F->1                     (1+L)RL1R
+  15    $LR)LR           -1*1/1))$     MATCH                     (1+L)RL1R
+  16     $LR)L           -1*1/1))$      R->?                      (1+L)L1R
+  17   $LR)LT-           -1*1/1))$    L->-TL                    (1+-TL)L1R
+  18    $LR)LT            1*1/1))$     MATCH                    (1+-TL)L1R
+  19   $LR)LRF            1*1/1))$     T->FR                   (1+-FRL)L1R
+  20   $LR)LR1            1*1/1))$      F->1                   (1+-1RL)L1R
+  21    $LR)LR             *1/1))$     MATCH                   (1+-1RL)L1R
+  22  $LR)LRF*             *1/1))$    R->*FR                 (1+-1*FRL)L1R
+  23   $LR)LRF              1/1))$     MATCH                 (1+-1*FRL)L1R
+  24   $LR)LR1              1/1))$      F->1                 (1+-1*1RL)L1R
+  25    $LR)LR               /1))$     MATCH                 (1+-1*1RL)L1R
+  26  $LR)LRF/               /1))$    R->/FR               (1+-1*1/FRL)L1R
+  27   $LR)LRF                1))$     MATCH               (1+-1*1/FRL)L1R
+  28   $LR)LR1                1))$      F->1               (1+-1*1/1RL)L1R
+  29    $LR)LR                 ))$     MATCH               (1+-1*1/1RL)L1R
+  30     $LR)L                 ))$      R->?                (1+-1*1/1L)L1R
+  31      $LR)                 ))$      L->?                 (1+-1*1/1)L1R
+  32       $LR                  )$     MATCH                 (1+-1*1/1)L1R
+  33        $L                  )$      R->?                  (1+-1*1/1)L1
+  34         $                  )$      L->?                   (1+-1*1/1)1
+ERROR!!!!!!!!!!

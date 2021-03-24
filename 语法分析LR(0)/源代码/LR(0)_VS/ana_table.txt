@@ -1,0 +1,17 @@
+          (         )         *         +         -         /         1         $         E         F         T         
+0         shift8                                                      shift7              shift1    shift3    shift15   
+1                                       shift2    shift10                       ACC                                     
+2         shift8                                                      shift7                        shift3    shift4    
+3                   T->F      T->F      T->F      T->F      T->F                T->F                                    
+4                   E->E+T    shift5    E->E+T    E->E+T    shift12             E->E+T                                  
+5         shift8                                                      shift7                        shift6              
+6                   T->T*F    T->T*F    T->T*F    T->T*F    T->T*F              T->T*F                                  
+7                   F->1      F->1      F->1      F->1      F->1                F->1                                    
+8         shift8                                                      shift7              shift9    shift3    shift15   
+9                   shift14             shift2    shift10                                                               
+10        shift8                                                      shift7                        shift3    shift11   
+11                  E->E-T    shift5    E->E-T    E->E-T    shift12             E->E-T                                  
+12        shift8                                                      shift7                        shift13             
+13                  T->T/F    T->T/F    T->T/F    T->T/F    T->T/F              T->T/F                                  
+14                  F->(E)    F->(E)    F->(E)    F->(E)    F->(E)              F->(E)                                  
+15                  E->T      shift5    E->T      E->T      shift12             E->T                                    

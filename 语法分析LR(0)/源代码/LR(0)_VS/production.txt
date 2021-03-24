@@ -1,0 +1,4 @@
+T->T*F|T/F|F
+L->E
+F->(E)|1
+E->E+T|E-T|T

@@ -1,0 +1,99 @@
+<keyword,int>
+<keyword,main>
+<parenthesis,(>
+<parenthesis,)>
+<parenthesis,{>
+<keyword,int>
+<a,1(0)>
+<assign_op,=>
+<integer,0>
+<,,>
+Warning!!!! Unknown character $ at line 4
+<b,1(1)>
+<assign_op,=>
+<integer,1>
+<delimiter,;>
+<keyword,int>
+<arith_op,*>
+Warning!!!! Too long an identifier aadawdadawfawdgawdawdawjdwhawdhadawda at line 5
+<aadawdadawfawdgawdawdawjdwhawdha,1(2)>
+<delimiter,;>
+<coment,//> Comments here.
+<keyword,int>
+Warning!!!! Invalid identifier(starting with a number) 1 at line 6
+<c,1(3)>
+<assign_op,=>
+<integer,5>
+<delimiter,;>
+<a,1(0)>
+<arith_op,++>
+<delimiter,;>
+<keyword,if>
+<parenthesis,(>
+<a,1(0)>
+<comp_op,==>
+<integer,1>
+<parenthesis,)>
+<parenthesis,{>
+<keyword,if>
+<parenthesis,(>
+<b,2(0)>
+<comp_op,==>
+<integer,1>
+<parenthesis,)>
+<b,2(0)>
+<arith_op,|=>
+<integer,2>
+<delimiter,;>
+<c,2(1)>
+<arith_op,+=>
+<integer,10>
+<delimiter,;>
+<parenthesis,}>
+<keyword,else>
+<parenthesis,{>
+<b,3(0)>
+<arith_op,^=>
+<integer,3>
+<delimiter,;>
+<c,3(1)>
+<arith_op,&=>
+<integer,1>
+<delimiter,;>
+<parenthesis,}>
+<a,1(0)>
+<arith_op,++>
+<delimiter,;>
+<b,1(1)>
+<arith_op,-->
+<delimiter,;>
+<c,1(3)>
+<assign_op,=>
+<a,1(0)>
+<arith_op,^>
+<b,1(1)>
+<delimiter,;>
+<b,1(1)>
+<assign_op,=>
+<a,1(0)>
+<arith_op,|>
+<c,1(3)>
+<delimiter,;>
+<a,1(0)>
+<assign_op,=>
+<b,1(1)>
+<arith_op,&>
+<c,1(3)>
+<delimiter,;>
+<keyword,return>
+<integer,0>
+<delimiter,;>
+<parenthesis,}>
+Statistical Data:
+Keywords : 9
+Identifiers : 22
+Numbers : 10
+Parentheses : 12
+Operators : 206
+Lines : 25
+Total characters : 259
